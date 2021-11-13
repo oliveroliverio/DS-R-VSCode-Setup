@@ -18,3 +18,9 @@ df <- mtcars
 
 Tried to knit: `cmd shft p`, "knit"
 Got error: "Knitting requires the {rmarkdown} package
+
+Install package `rmarkdown`
+Go to R console/terminal
+```
+install.packages("rmarkdown")
+```
