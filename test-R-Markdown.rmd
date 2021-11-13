@@ -13,4 +13,6 @@ data(mtcars)
 mtcars <- mutate(mtcars,cyl=factor(cyl,ordered=TRUE,levels=c(4,6,8)))
 head(mtcars,n=6)
 
+ggplot(mtcars,aes(x=mpg)) + geom_histogram(binwidth=5)
+
 ```
