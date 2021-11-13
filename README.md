@@ -24,3 +24,18 @@ Go to R console/terminal
 ```
 install.packages("rmarkdown")
 ```
+
+Tried knitting again
+Error: "pandoc version 1.12.3 or higher is required and was not found"
+
+Google error, found out pandoc isn't an R package but a unix app.  See if installed
+```
+pandoc --version
+```
+Output: command pandoc not found.
+So not installed
+Install via brew
+
+```
+brew install pandoc
+```
