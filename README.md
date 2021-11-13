@@ -39,3 +39,7 @@ Install via brew
 ```
 brew install pandoc
 ```
+
+Tried knitting again
+Error: "no package called tidyverse"
+Install tidyverse package
