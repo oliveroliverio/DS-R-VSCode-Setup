@@ -4,5 +4,13 @@
 Some R code below
 
 ```{r}
+# load packages
+library(ggplot2)
 library(tidyverse)
+# load mtcars data
+data(mtcars)
+
+mtcars <- mutate(mtcars,cyl=factor(cyl,ordered=TRUE,levels=c(4,6,8)))
+head(mtcars,n=6)
+
 ```
