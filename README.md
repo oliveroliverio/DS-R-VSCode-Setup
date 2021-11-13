@@ -46,3 +46,10 @@ Install tidyverse package
 
 Tried knitting again
 Works.  New file html file created which can be previewed
+
+# Conclusion
+
+Now I can use VScode for both Rmarkdown and Jupyter notebooks
+
+New workflow:
+- VScode everything in R for the base shiny app
