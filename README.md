@@ -43,3 +43,6 @@ brew install pandoc
 Tried knitting again
 Error: "no package called tidyverse"
 Install tidyverse package
+
+Tried knitting again
+Works.  New file html file created which can be previewed
